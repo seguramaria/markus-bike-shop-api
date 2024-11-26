@@ -1,24 +1,26 @@
-# README
+# Markus Bike Shop Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend for the [Markus Bike Shop](https://github.com/seguramaria/markus-bike-shop) project, developed with Ruby on Rails. It provides the API used by the bike configurator application.
 
-Things you may want to cover:
+## Running Locally
 
-* Ruby version
+To run the backend locally, follow these steps:
 
-* System dependencies
+1. Clone the repository:
 
-* Configuration
+```bash
+git clone https://github.com/your-username/markus-bike-shop-api.git
+cd markus-bike-shop-api
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. Install the dependencies:
+   
+ ```bash
+  bundle install
+ ```
+3. Run the Rails server:
+   
+```bash
+rails server
+ ```
+This will start the backend server on http://localhost:3000.
